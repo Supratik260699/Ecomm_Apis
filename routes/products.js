@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require('mongoose');
-const Ecom = require('../models/Ecom');
+const Ecom = require('../models/ecom');
 
 //to get the list of products
 router.get("/",function(req,res){
